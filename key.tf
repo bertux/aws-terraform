@@ -1,4 +1,8 @@
-resource "aws_key_pair" "deployer" {
+resource "aws_key_pair" "bitbuddy" {
   key_name   = "bitbuddy"
   public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDkGnSpesdmXv2cDnwusdnzaImJePFLfdNTdXqrO83ii7E5bVVR/sL0eXHmCIyAwAW7KxkLJisqy6Lw+6SZhYK/TrktHwEDfutm7fZwR7PLa98mKHm+SX5LT5t72AyXk4eE9rCyRNJnaTU+NqBgnfF0kglOA47gD3OpWd0GVE00UbPBlWH3JYvz3SSjEU2zd9Rq0BhUlYPSoxqAEL536hVbmUYo+RiReXZaCYDf5msEDf2BS/HZSvQMDKAZfJ1KWkDE/1ZSAdtt8MAAYNmt1unypyXRGPgOyrdqxKXHzih1yjDIw1+LsQhcxY/XE2WB4mHQqZfT1LNy1untLBD2vRR bert@bitbuddy"
+}
+resource "aws_key_pair" "mokens" {
+  key_name   = "mokens"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC6gGD/a7vhS6VGe7Q9OQv49wBPU30y692YHFQt8dwBNf5PAMik7MVLb5R1E8LXypk2JBaVAfJyNP8Uq9724g5aHBx0QB3OR2HwFNRau/5Q2SCbDzWM7D1Uf4VRL5mAHB5jGcrpJrmORPPR0XxaPdkPsj+hU6WxQdXhPj4nx038i/lqMUdmEMS6jcH+MakxlndNTeOLdzz77BUEEz385N15EIFhfRLn2ftWSWSbbn0Jw4OV/Yd9YVw9ynAcPRWENqeLGKXWsVdDks5i23KFkQg13EAayshiajeFWKu+5WvF9IgNdpN8jfpzBayTI8Bu8CCZCzNsFBVhBXY4oRmsIKHn bert@NUmoney"
 }
